@@ -1,0 +1,20 @@
+.user-container {
+    width: 90%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+.user {
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: rgba(150, 155, 162, 0.765);
+    max-width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
