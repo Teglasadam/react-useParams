@@ -1,12 +1,12 @@
 import { BrowserRouter } from "react-router-dom";
-import DriverRouter from "./components/DriverRouter";
+import Mainrouter from "./components/Mainrouter";
 import "./App.css";
 
 function App() {
 	return (
 		<div className="App">
 			<BrowserRouter>
-				<DriverRouter />
+				<Mainrouter />
 			</BrowserRouter>
 		</div>
 	);

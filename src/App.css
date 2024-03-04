@@ -1,7 +1,8 @@
-.App {
+html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: #5ac3b0;
 }
 img {
   width: 100%;
